@@ -36,7 +36,7 @@ To get started add the **lib** folder to your project and include the **the_city
 
 ## Load Topics
 
-	array_of_topic_titles = the_city.topics.all_titles
+	array_of_topic_titles = the_city.topics.titles
 
 	topic = the_city.topics[1]
   
@@ -44,7 +44,7 @@ To get started add the **lib** folder to your project and include the **the_city
 
 ## Load Events
 
-	array_of_event_titles = the_city.events.all_titles
+	array_of_event_titles = the_city.events.titles
 
 	event = the_city.events[1]
 
@@ -52,7 +52,7 @@ To get started add the **lib** folder to your project and include the **the_city
 
 ## Load Prayers
 
-	array_of_prayer_titles = the_city.prayers.all_titles
+	array_of_prayer_titles = the_city.prayers.titles
 
 	prayer = the_city.prayers[1]
 
@@ -60,7 +60,7 @@ To get started add the **lib** folder to your project and include the **the_city
 
 ## Load Needs
 
-	array_of_need_titles = the_city.prayers.all_titles
+	array_of_need_titles = the_city.prayers.titles
 
 	need = the_city.needs[1]
 
@@ -68,7 +68,7 @@ To get started add the **lib** folder to your project and include the **the_city
 
 ## Albums
 
-	array_of_album_titles = the_city.albums.all_titles
+	array_of_album_titles = the_city.albums.titles
 
 	album = the_city.albums[1]
 
