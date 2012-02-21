@@ -5,7 +5,7 @@
   <meta http-equiv="Content-Language" content="en-us" />
   <meta http-equiv="imagetoolbar" content="false" />
   <meta name="MSSmartTagsPreventParsing" content="true" />
-  <title>The City Developer Community</title>
+  <title>Plaza Ruby | The City Developer Community</title>
   <link href="/css/reset.css" rel="stylesheet" type="text/css" />
   <link href="/css/960.css" rel="stylesheet" type="text/css" />
   <link href="/css/uv_active4d.css" rel="stylesheet" type="text/css" />
@@ -33,15 +33,60 @@
 
     <div id="wrapper">
       <div class="content">
-    <h1 id="the-city-developer-community">The City Developer Community</h1>
+    <h1 id="the-city-plaza-ruby">The City Plaza Ruby</h1>
 
-<p>This site contains documentation on the API libraries, plugins, and other projects developed by The City staff and other contributers. </p>
+<h2 id="setup">Setup</h2>
 
-<p>If you have any problems or requests please contact
-<a href="mailto:wes@onthecity.org?subject=GitHub:%20The%20City%20Developer">support</a>.</p>
+<p>To get started add the <strong>lib</strong> folder to your project and include the <strong>the_city.rb</strong> file.</p>
 
-<p>View the <a href="/changelog">API Changelog</a> for information on existing and
-planned changes to the API.</p>
+<pre><code>require 'path/to/.../lib/the_city.rb'
+</code></pre>
+
+<h2 id="defaults">Defaults</h2>
+
+<ul>
+<li>Data pulled from the Plaza is cached for 1 hour in a folder called <strong>storage</strong>, which is outside the <strong>lib</strong> folder.  </li>
+</ul><h2 id="initalize">Initalize</h2>
+
+<pre><code># First param is your church's subdomain key.
+# Second param is whether or not to cache the data.
+the_city = TheCity.new('mychurch', false);
+</code></pre>
+
+<h2 id="load-topics">Load Topics</h2>
+
+<pre><code>array_of_topic_titles = the_city.topics.all_titles
+
+topic = the_city.topics[1]
+</code></pre>
+
+<h2 id="load-events">Load Events</h2>
+
+<pre><code>array_of_event_titles = the_city.events.all_titles
+
+event = the_city.events[1]
+</code></pre>
+
+<h2 id="load-prayers">Load Prayers</h2>
+
+<pre><code>array_of_prayer_titles = the_city.prayers.all_titles
+
+prayer = the_city.prayers[1]
+</code></pre>
+
+<h2 id="load-needs">Load Needs</h2>
+
+<pre><code>array_of_need_titles = the_city.prayers.all_titles
+
+need = the_city.needs[1]
+</code></pre>
+
+<h2 id="albums">Albums</h2>
+
+<pre><code>array_of_album_titles = the_city.albums.all_titles
+
+album = the_city.albums[1]
+</code></pre>
       </div>
 
     <div id="js-sidebar" class="sidebar-shell">
