@@ -35,7 +35,64 @@
       <div class="content">
     <h1 id="the-city-plaza-php">The City Plaza PHP</h1>
 
-<pre><code>This page hasn't been developed yet.
+<h2 id="the-code">The Code</h2>
+
+<p>You can get the code from the project repo</p>
+
+<pre><code>https://github.com/thecity/plaza-php
+</code></pre>
+
+<h2 id="setup">Setup</h2>
+
+<p>To get started add the <strong>lib</strong> folder to your project and include the <strong>the_city.rb</strong> file.</p>
+
+<pre><code>require_once 'path/to/.../lib/the_city.php'
+</code></pre>
+
+<h2 id="defaults">Defaults</h2>
+
+<ul>
+<li>Data pulled from the Plaza is cached for 1 hour in a folder called <strong>storage</strong>, which is outside the <strong>lib</strong> folder.  </li>
+</ul><h2 id="initalize">Initalize</h2>
+
+<pre><code># First param is your church's subdomain key.
+# Second param is whether or not to cache the data.
+the_city = new TheCity('mychurch', false);
+</code></pre>
+
+<h2 id="load-topics">Load Topics</h2>
+
+<pre><code>$array_of_topic_titles = $the_city-&gt;topics-&gt;all_titles();
+
+$topic = $the_city-&gt;topics.get(1);
+</code></pre>
+
+<h2 id="load-events">Load Events</h2>
+
+<pre><code>$array_of_event_titles = $the_city.events.all_titles();
+
+$event = $the_city.events.get(1);
+</code></pre>
+
+<h2 id="load-prayers">Load Prayers</h2>
+
+<pre><code>$array_of_prayer_titles = $the_city.prayers.all_titles();
+
+$prayer = $the_city.prayers.get(1);
+</code></pre>
+
+<h2 id="load-needs">Load Needs</h2>
+
+<pre><code>$array_of_need_titles = $the_city.prayers.all_titles();
+
+$need = $the_city.needs.get(1);
+</code></pre>
+
+<h2 id="albums">Albums</h2>
+
+<pre><code>$array_of_album_titles = $the_city.albums.all_titles();
+
+$album = $the_city.albums.get(1);
 </code></pre>
       </div>
 
