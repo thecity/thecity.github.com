@@ -4,6 +4,14 @@ title: Plaza Ruby | The City Developer Community
 
 # The City Plaza Ruby
 
+
+## The Code
+
+You can get the code from the project repo
+
+	https://github.com/thecity/plaza-ruby
+
+
 ## Setup
 
 To get started add the **lib** folder to your project and include the **the_city.rb** file.
