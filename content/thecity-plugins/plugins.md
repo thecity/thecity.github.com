@@ -4,4 +4,5 @@ title: Plugins | The City Developer Community
 
 # The City Plugins
 
-	This page hasn't been developed yet.
+These plugins are built on the API wrappers developed for the Plaza and Admin libraries.
+
