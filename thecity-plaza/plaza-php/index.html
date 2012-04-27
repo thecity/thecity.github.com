@@ -61,38 +61,68 @@ the_city = new TheCity('mychurch', false);
 </code></pre>
 
 <h2 id="load-topics">Load Topics</h2>
+<pre><code>$array_of_topic_titles = $the_city-&gt;topics()-&gt;titles();
 
-<pre><code>$array_of_topic_titles = $the_city-&gt;topics-&gt;all_titles();
+# by default will grab 10 topics.
+$topics = $the_city-&gt;topics();
 
-$topic = $the_city-&gt;topics.get(1);
+# limit the amount of topics fetched from The City.
+$topics = $the_city-&gt;topics(3);
+
+# Get topic.
+$topic = $topics-&gt;select(2);
 </code></pre>
 
 <h2 id="load-events">Load Events</h2>
+<pre><code>$array_of_event_titles = $the_city-&gt;events()-&gt;titles();
 
-<pre><code>$array_of_event_titles = $the_city.events.all_titles();
+# by default will grab 10 events.
+$events = $the_city-&gt;events();
 
-$event = $the_city.events.get(1);
+# limit the amount of events fetched from The City  
+$events = $the_city-&gt;events(3);
+
+# Get event.
+$event = $events-&gt;select(2);
 </code></pre>
 
 <h2 id="load-prayers">Load Prayers</h2>
+<pre><code>$array_of_prayer_titles = $the_city-&gt;prayers()-&gt;titles();
 
-<pre><code>$array_of_prayer_titles = $the_city.prayers.all_titles();
+# by default will grab 10 prayers.
+$prayers = $the_city-&gt;prayers();
 
-$prayer = $the_city.prayers.get(1);
+# limit the amount of prayers fetched from The City  
+$rayers = $the_city-&gt;prayers(3);
+
+# Get prayer
+$prayer = $prayers-&gt;select(2);
 </code></pre>
 
 <h2 id="load-needs">Load Needs</h2>
+<pre><code>$array_of_need_titles = $the_city-&gt;prayers()-&gt;titles();
 
-<pre><code>$array_of_need_titles = $the_city.prayers.all_titles();
+# by default will grab 10 needs
+$needs = $the_city-&gt;needs();
 
-$need = $the_city.needs.get(1);
+# limit the amount of needs fetched from The City   
+$needs = $the_city-&gt;needs(3);
+
+# Get needs
+$need = $needs-&gt;select(2);
 </code></pre>
 
 <h2 id="albums">Albums</h2>
+<pre><code>$array_of_album_titles = $the_city-&gt;albums()-&gt;titles();
 
-<pre><code>$array_of_album_titles = $the_city.albums.all_titles();
+# by default will grab 10 albums
+$albums = $the_city-&gt;albums();
 
-$album = $the_city.albums.get(1);
+# limit the amount of albums fetched from The City  
+$albums = $the_city-&gt;albums(3);
+
+// Get event
+$album = $albums-&gt;select(2);
 </code></pre>
       </div>
 
