@@ -30,6 +30,9 @@ Select the data to pull from the Plaza.
 * Show Dates  
 Check to show the date the items were placed on the Plaza.
 
+* Items to display    
+The number of items to display in the widget area.
+
 * Cache data for  
 The time period to cache the data before requesting it again from the server.  Caching data speeds up displaying content on you website.
 
