@@ -24,8 +24,11 @@ The title above this widget on your website.
 * Subdomain  
 The part of the URL before the "OnTheCity.org".  For example in the URL http://livingstones.onthecity.org the subdomain would be "livingstones".
 
-* Display  
+* Show Display  
 Select the data to pull from the Plaza.
+
+* Show Plaza item type above title 
+Shows the item type (Topic, Event, Prayer, Need, etc.) above the title.
 
 * Show Dates  
 Check to show the date the items were placed on the Plaza.
