@@ -39,6 +39,8 @@ The number of items to display in the widget area.
 * Cache data for  
 The time period to cache the data before requesting it again from the server.  Caching data speeds up displaying content on you website.
 
+* Clear cache on save  
+Clears *all* the cache the widget has stored so far on save.  If multiple instances of the widget are used those caches are also cleared.
 
 
 ## Where is the plugin?
