@@ -55,70 +55,75 @@
 <li>Data pulled from the Plaza is cached for 1 hour in a folder called <strong>storage</strong>, which is outside the <strong>lib</strong> folder.  </li>
 </ul><h2 id="initalize">Initalize</h2>
 
-<pre><code># First param is your church's subdomain key.
-# Second param is whether or not to cache the data.
+<pre><code>// First param is your church's subdomain key.
+// Second param is whether or not to cache the data.
 the_city = new TheCity('mychurch', false);
+
+
+// Set group nickname to pull plaza items for.
+// http://helpdesk.onthecity.org/entries/422776-group-nickname
+$the_city-&gt;set_group_nickname('@v21west');
 </code></pre>
 
 <h2 id="load-topics">Load Topics</h2>
 <pre><code>$array_of_topic_titles = $the_city-&gt;topics()-&gt;titles();
 
-# by default will grab 10 topics.
+// by default will grab 10 topics.
 $topics = $the_city-&gt;topics();
 
-# limit the amount of topics fetched from The City.
+// limit the amount of topics fetched from The City.
 $topics = $the_city-&gt;topics(3);
 
-# Get topic.
+// Get topic.
 $topic = $topics-&gt;select(2);
 </code></pre>
 
 <h2 id="load-events">Load Events</h2>
 <pre><code>$array_of_event_titles = $the_city-&gt;events()-&gt;titles();
 
-# by default will grab 10 events.
+// by default will grab 10 events.
 $events = $the_city-&gt;events();
 
-# limit the amount of events fetched from The City  
+// limit the amount of events fetched from The City  
 $events = $the_city-&gt;events(3);
 
-# Get event.
+// Get event.
 $event = $events-&gt;select(2);
 </code></pre>
 
 <h2 id="load-prayers">Load Prayers</h2>
 <pre><code>$array_of_prayer_titles = $the_city-&gt;prayers()-&gt;titles();
 
-# by default will grab 10 prayers.
+// by default will grab 10 prayers.
 $prayers = $the_city-&gt;prayers();
 
-# limit the amount of prayers fetched from The City  
+// limit the amount of prayers fetched from The City  
 $rayers = $the_city-&gt;prayers(3);
 
-# Get prayer
+// Get prayer
 $prayer = $prayers-&gt;select(2);
 </code></pre>
 
 <h2 id="load-needs">Load Needs</h2>
 <pre><code>$array_of_need_titles = $the_city-&gt;prayers()-&gt;titles();
 
-# by default will grab 10 needs
+// by default will grab 10 needs
 $needs = $the_city-&gt;needs();
 
-# limit the amount of needs fetched from The City   
+// limit the amount of needs fetched from The City   
 $needs = $the_city-&gt;needs(3);
 
-# Get needs
+// Get needs
 $need = $needs-&gt;select(2);
 </code></pre>
 
 <h2 id="albums">Albums</h2>
 <pre><code>$array_of_album_titles = $the_city-&gt;albums()-&gt;titles();
 
-# by default will grab 10 albums
+// by default will grab 10 albums
 $albums = $the_city-&gt;albums();
 
-# limit the amount of albums fetched from The City  
+// limit the amount of albums fetched from The City  
 $albums = $the_city-&gt;albums(3);
 
 // Get event
