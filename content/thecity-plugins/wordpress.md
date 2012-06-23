@@ -59,8 +59,8 @@ or it can be installed within your WordPress instance by searching for **The Cit
 ## Bug / Feature Request
 
 If you would like to get involved in this project then visit the project GitHub repo and fork the project.  
-[https://github.com/thecity/thecity-plaza-wordpress](https://github.com/thecity/plaza-wordpress) 
+[https://github.com/thecity/thecity-plaza-wordpress](https://github.com/thecity/thecity-plaza-wordpress) 
 
 
 If you have found a bug, or have a feature request then create a ticket.  
-[https://github.com/thecity/thecity-plaza-wordpress/issues](https://github.com/thecity/plaza-wordpress/issues)
+[https://github.com/thecity/thecity-plaza-wordpress/issues](https://github.com/thecity/thecity-plaza-wordpress/issues)
