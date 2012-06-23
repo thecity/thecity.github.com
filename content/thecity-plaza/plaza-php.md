@@ -9,7 +9,7 @@ title: Plaza PHP | The City Developer Community
 
 You can get the code from the project repo
 
-	https://github.com/thecity/plaza-php
+	https://github.com/thecity/thecity-plaza-php
 
 
 ## Setup

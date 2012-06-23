@@ -9,7 +9,7 @@ title: Plaza Ruby | The City Developer Community
 
 You can get the code from the project repo
 
-	https://github.com/thecity/plaza-ruby
+	https://github.com/thecity/thecity-plaza-ruby
 
 
 ## Setup

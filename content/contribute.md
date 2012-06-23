@@ -8,12 +8,12 @@ If you would like to get involved in any of these project, then visit the projec
 
 
 * Plaza WordPress plugin  
-[https://github.com/thecity/plaza-wordpress](https://github.com/thecity/plaza-wordpress)
+[https://github.com/thecity/thecity-plaza-wordpress](https://github.com/thecity/thecity-plaza-wordpress)
 
 
 * Plaza PHP Library  
-[https://github.com/thecity/plaza-php](https://github.com/thecity/plaza-php)
+[https://github.com/thecity/thecity-plaza-php](https://github.com/thecity/thecity-plaza-php)
 
 
 * Plaza Ruby Library  
-[https://github.com/thecity/plaza-ruby](https://github.com/thecity/plaza-ruby)
+[https://github.com/thecity/thecity-plaza-ruby](https://github.com/thecity/thecity-plaza-ruby)
