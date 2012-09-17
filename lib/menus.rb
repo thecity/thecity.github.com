@@ -7,7 +7,7 @@ module TheCity
        
        {:main => {:name => 'The City Plugins', :path => '/thecity-plugins/plugins/'},
         :subs => [
-                  # {:name => 'Facebook', :path => '/thecity-plugins/facebook/'},
+                  {:name => 'Facebook', :path => '/thecity-plugins/facebook/'},
 	                {:name => 'Wordpress', :path => '/thecity-plugins/wordpress/'}]},
 
 	     {:main => {:name => 'The City Plaza Libraries', :path => '/thecity-plaza/plaza-libraries/'},
