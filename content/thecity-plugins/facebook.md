@@ -21,6 +21,10 @@ It is possible to pull church needs, topics, events, prayers and albums from the
 The part of the URL before the "OnTheCity.org".  For example in the URL http://livingstones.onthecity.org the subdomain would be "livingstones".
 
 
+* Group Nickname (optional)  
+The group nickname to pull Plaza items for.  
+http://helpdesk.onthecity.org/entries/422776-group-nickname
+
 
 ## Bug / Feature Request
 
