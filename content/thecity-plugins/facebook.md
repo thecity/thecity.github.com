@@ -7,9 +7,9 @@ title: Facebook | The City Developer Community
 
 ## The Code
 
-It is possible to pull church needs, topics, events, prayers and albums from the Plaza so that you can use them within your Facebook site.
+It is possible to pull church needs, topics, events, prayers and albums from the Plaza so that you can use them within your church Facebook page.
 
-Data is not cache so all is pulled in real time.
+*Data is not cache so all is pulled in real time.
 
 
 
@@ -19,10 +19,6 @@ Data is not cache so all is pulled in real time.
 
 * Church Subdomain  
 The part of the URL before the "OnTheCity.org".  For example in the URL http://livingstones.onthecity.org the subdomain would be "livingstones".
-
-* Group Nickname (optional)  
-The group nickname to pull Plaza items for.  
-http://helpdesk.onthecity.org/entries/422776-group-nickname
 
 
 
