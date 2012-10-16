@@ -4,6 +4,9 @@ module TheCity
     SIDE_MENUS =
       [{:main => {:name => 'General', :path => '/general/'},
         :subs => []},
+
+        {:main => {:name => 'AppKit', :path => 'http://appkit.onthecity.org'},
+        :subs => []},
        
        {:main => {:name => 'The City Plugins', :path => '/thecity-plugins/plugins/'},
         :subs => [
