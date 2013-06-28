@@ -10,8 +10,9 @@ module TheCity
        
        {:main => {:name => 'The City Plugins', :path => '/thecity-plugins/plugins/'},
         :subs => [
-                  {:name => 'Facebook', :path => '/thecity-plugins/facebook/'},
-	                {:name => 'Wordpress', :path => '/thecity-plugins/wordpress/'}]},
+                  {:name => 'Facebook - Plaza', :path => '/thecity-plugins/facebook-plaza/'},
+	                {:name => 'Wordpress - Login', :path => '/thecity-plugins/wordpress-login/'},
+                  {:name => 'Wordpress - Plaza', :path => '/thecity-plugins/wordpress-plaza/'}]},
 
 	     {:main => {:name => 'The City Plaza Libraries', :path => '/thecity-plaza/plaza-libraries/'},
 	      :subs => [{:name => 'Plaza PHP', :path => '/thecity-plaza/plaza-php/'},
@@ -27,9 +28,6 @@ module TheCity
 		   #  :subs => []},
 
 		   {:main => {:name => 'Report a bug', :path => '/report-a-bug/'},
-		    :subs => []},
-
-		   {:main => {:name => 'Contribute', :path => '/contribute/'},
 		    :subs => []}]
 
   end

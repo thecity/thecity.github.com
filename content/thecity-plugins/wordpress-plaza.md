@@ -1,11 +1,11 @@
 ---
-title: WordPress | The City Developer Community
+title: WordPress - Plaza | The City Developer Community
 ---
 
-# The City WordPress Plugin
+# The City Plaza WordPress Plugin
 
 
-## The Code
+## Description
 
 It is possible to pull church needs, topics, events, prayers and albums from the Plaza so that you can use them within your WordPress site.
 
@@ -15,7 +15,7 @@ Data pulled from The City is by default cached for 1 day (24 hours) so that subs
 
 ## Screenshot
 
-![Screenshot](/images/plaza-wordpress/widget.png) 
+![Screenshot](/images/wordpress-plaza/widget.png) 
 
 
 * Widget Title:  
