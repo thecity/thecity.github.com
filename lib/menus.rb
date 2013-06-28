@@ -5,7 +5,7 @@ module TheCity
       [{:main => {:name => 'General', :path => '/general/'},
         :subs => []},
 
-        {:main => {:name => 'AppKit', :path => 'http://appkit.onthecity.org'},
+        {:main => {:name => 'AppKit', :path => 'http://developer.onthecity.org/thecity-appkit'},
         :subs => []},
        
        {:main => {:name => 'The City Plugins', :path => '/thecity-plugins/plugins/'},
