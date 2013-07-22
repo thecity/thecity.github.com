@@ -51,5 +51,5 @@ An API Wrapper written in PHP for interacting with the Admin API (http://api.ont
 
 **PHP Admin API Wrapper**  
 [https://github.com/thecity/thecity-admin-ruby](https://github.com/thecity/thecity-admin-ruby)  
-An API Wrapper written in PHP for interacting with the Admin API (http://api.onthecity.org).
+An API Wrapper written in Ruby for interacting with the Admin API (http://api.onthecity.org).
 
