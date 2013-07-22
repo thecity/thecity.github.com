@@ -49,7 +49,7 @@ An API Wrapper written in Ruby for pulling the public information listed on the 
 [https://github.com/johnroberts/thecity-admin-php](https://github.com/johnroberts/thecity-admin-php)  
 An API Wrapper written in PHP for interacting with the Admin API (http://api.onthecity.org).
 
-**PHP Admin API Wrapper**  
+**Ruby Admin API Wrapper**  
 [https://github.com/thecity/thecity-admin-ruby](https://github.com/thecity/thecity-admin-ruby)  
 An API Wrapper written in Ruby for interacting with the Admin API (http://api.onthecity.org).
 
