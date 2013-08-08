@@ -11,6 +11,7 @@ module TheCity
        {:main => {:name => 'The City Plugins', :path => '/thecity-plugins/plugins/'},
         :subs => [
                   {:name => 'Facebook - Plaza', :path => '/thecity-plugins/facebook-plaza/'},
+                  {:name => 'Wordpress - Chipin', :path => '/thecity-plugins/wordpress-chipin/'},
 	                {:name => 'Wordpress - Login', :path => '/thecity-plugins/wordpress-login/'},
                   {:name => 'Wordpress - Plaza', :path => '/thecity-plugins/wordpress-plaza/'}]},
 
