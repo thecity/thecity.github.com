@@ -50,6 +50,17 @@ The date the campaign started.
 The date the campaign ends.
 
 
+## Examples
+
+![Example 1](/images/wordpress-chipin/example1.png) 
+
+![Example 2](/images/wordpress-chipin/example2.png) 
+
+![Example 3](/images/wordpress-chipin/example3.png) 
+
+![Example 4](/images/wordpress-chipin/example4.png) 
+
+
 ## Where is the plugin?
 
 The WordPress plugin can be found at  
