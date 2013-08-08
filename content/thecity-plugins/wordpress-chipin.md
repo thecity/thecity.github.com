@@ -46,7 +46,7 @@ The total amount needed for this designation.
 * Start Date  
 The date the campaign started.
 
-# End Date  
+* End Date  
 The date the campaign ends.
 
 
