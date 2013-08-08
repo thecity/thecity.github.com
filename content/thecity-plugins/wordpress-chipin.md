@@ -7,8 +7,7 @@ title: WordPress - Chipin | The City Developer Community
 
 ## Description
 
-A WordPress plugin that allows users to create campaign giving assigned to a registry items using The City.  
-The widgets created will automatically update as the funds settle.
+A WordPress plugin that allows users to create campaign giving assigned to a registry items using The City. The widgets created will automatically update as the funds settle.
 
 
 
