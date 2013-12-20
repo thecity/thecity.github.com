@@ -25,7 +25,7 @@
             <li><a href="/v3/">API v3</a></li>
             <li><a href="http://develop.github.com">API v2</a></li>
             -->
-            <li><a href="mailto:wes@onthecity.org?subject=GitHub: The City Developer">Support</a></li>
+            <li><a href="mailto:jasonh@onthecity.org?subject=GitHub: The City Developer">Support</a></li>
           </ul>
         </div>
       </div><!-- #header -->
@@ -52,8 +52,10 @@
 <h2 id="defaults">Defaults</h2>
 
 <ul>
-<li>Data pulled from the Plaza is cached for 1 hour in a folder called <strong>storage</strong>, which is outside the <strong>lib</strong> folder.  </li>
-</ul><h2 id="initalize">Initalize</h2>
+  <li>Data pulled from the Plaza is cached for 1 hour in a folder called <strong>storage</strong>, which is outside the <strong>lib</strong> folder.  </li>
+</ul>
+
+<h2 id="initalize">Initalize</h2>
 
 <pre><code>// First param is your church's subdomain key.
 // Second param is whether or not to cache the data.
@@ -129,6 +131,7 @@ $albums = $the_city-&gt;albums(3);
 // Get event
 $album = $albums-&gt;select(2);
 </code></pre>
+
       </div>
 
     <div id="js-sidebar" class="sidebar-shell">
