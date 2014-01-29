@@ -7,6 +7,8 @@ module TheCity
 
         {:main => {:name => 'AppKit', :path => 'http://developer.onthecity.org/thecity-appkit'},
         :subs => []},
+
+        {:main => {:name => 'The City API', :path => 'http://api.onthecity.org'}, :subs => []},
        
        {:main => {:name => 'The City Plugins', :path => '/thecity-plugins/plugins/'},
         :subs => [
