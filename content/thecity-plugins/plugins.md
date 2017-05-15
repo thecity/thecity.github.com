@@ -18,23 +18,6 @@ If you would like to get involved in any of these project, then visit the projec
 [https://github.com/thecity/thecity-login-javascript](https://github.com/thecity/thecity-login-javascript)  
 A class that loads a login form to any website so that a user can login to The City without going to The City's login page.
 
-# Facebook plugins  
-
-**The City Plaza on Facebook**  
-[https://github.com/thecity/thecity-plaza-facebook](https://github.com/thecity/thecity-plaza-facebook)  
-Fetches Plaza info to display on facebook page.  
-
-
-# WordPress plugins  
-
-**The City Login Form**  
-[https://github.com/thecity/thecity-login-wordpress](https://github.com/thecity/thecity-login-wordpress)  
-A widget that adds The City login form to a WordPress site.  This plugin is built on the JavaScript Login class listed under "JavaScript plugins".
-
-**The City Plaza**  
-[https://github.com/thecity/thecity-plaza-wordpress](https://github.com/thecity/thecity-plaza-wordpress)  
-A widget that pulls plaza information into a WordPress site.  This plugin is built on the PHP Plaza API wrapper listed under "Libraries".
-
 
 # Libraries  
 **PHP Plaza API Wrapper**  

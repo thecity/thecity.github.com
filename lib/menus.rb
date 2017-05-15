@@ -11,11 +11,7 @@ module TheCity
         {:main => {:name => 'The City API', :path => 'http://api.onthecity.org'}, :subs => []},
        
        {:main => {:name => 'The City Plugins', :path => '/thecity-plugins/plugins/'},
-        :subs => [
-                  {:name => 'Facebook - Plaza', :path => '/thecity-plugins/facebook-plaza/'},
-                  {:name => 'Wordpress - Chipin', :path => '/thecity-plugins/wordpress-chipin/'},
-	                {:name => 'Wordpress - Login', :path => '/thecity-plugins/wordpress-login/'},
-                  {:name => 'Wordpress - Plaza', :path => '/thecity-plugins/wordpress-plaza/'}]},
+        :subs => []},
 
 	     {:main => {:name => 'The City Plaza Libraries', :path => '/thecity-plaza/plaza-libraries/'},
 	      :subs => [{:name => 'Plaza PHP', :path => '/thecity-plaza/plaza-php/'},
